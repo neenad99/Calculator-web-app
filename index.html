@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Calulator App</title>
+</head>
+<body>
+    <h1>Calculator App</h1>
+    <div class="container" id="calculator">
+        <input type="text" id="display" value="0">
+        <table>
+            <tr>
+                <td><button data-action="clear">AC</button></td>
+                <td><button data-action="backspace">CE</button></td>
+                <td><button data-action="modulo">%</button></td>
+                <td><button data-action="divide">/</button></td>
+              </tr>
+            <tr>
+                <td><button>7</button></td>
+                <td><button>8</button></td>
+                <td><button>9</button></td>
+                <td><button data-action="multiply">X</button></td>
+            </tr>
+            <tr>
+                <td><button>4</button></td>
+                <td><button>5</button></td>
+                <td><button>6</button></td>
+                <td><button data-action="subtract">-</button></td>
+            </tr>
+            <tr>
+                <td><button>1</button></td>
+                <td><button>2</button></td>
+                <td><button>3</button></td>
+                <td><button data-action="add">+</button></td>
+            </tr>
+            <tr>
+                <td><button>0</button></td>
+                <td><button data-action="decimal">.</button></td>
+                <td><button data-action="squareRoot">&#8730;</button></td>
+                <td><button data-action="equals">=</button></td>
+            </tr>
+          </table>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

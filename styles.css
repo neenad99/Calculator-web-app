@@ -18,7 +18,7 @@ table{
 }
 
 input{
-    font-size: 23px;
+    font-size: 30px;
     margin: auto;
     border: 3px solid black;
     height: 44px;
@@ -27,10 +27,10 @@ input{
 }
 
 button{
-    font-size: 30px;
+    font-size: 33px;
     background-color: darkgray;
-    width: 72px;
-    height: 59px;
+    width: 92px;
+    height: 75px;
     border-radius: 23px;
     border: 2px solid black;
 }
